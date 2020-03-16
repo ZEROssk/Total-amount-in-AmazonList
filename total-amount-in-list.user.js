@@ -29,6 +29,6 @@
 		'<div>'+tAmount+'</div>'
 	;
 
-	insertPosition.insertAdjacentHTML('afterend',);
+	insertPosition.insertAdjacentHTML('afterend', insertHTML);
 })();
 
