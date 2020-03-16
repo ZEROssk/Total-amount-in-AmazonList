@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Total amount in AmazonList
 // @namespace	http://zerono.cloud
-// @version		0.2
+// @version		0.3
 // @author		ZEROssk
 // @match		https://www.amazon.co.jp/hz/wishlist/*
 // @grant		none
@@ -12,7 +12,12 @@
 (function() {
 	'use strict';
 
-	var products = document.getElementsByClassName("a-price-whole");
+	let insertPosition = document.getElementsByClassName(
+		'aok-inline-block aok-align-center wl-collab-list-huddles-icon'
+	);
+	let products = document.getElementsByClassName(
+		'a-price-whole'
+	);
 	var tAmount =0;
 
 	for(let i=0; i < products.length; i++) {
@@ -20,5 +25,6 @@
 	}
 	console.log(products.length);
 	console.log(tAmount);
+	console.log(insertPosition);
 })();
 
