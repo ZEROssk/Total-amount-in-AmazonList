@@ -6,7 +6,7 @@
 // @match		https://www.amazon.co.jp/hz/wishlist/ls/38L384U0VKCY8/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist
 // @grant		none
 // @license		MIT License
-// @updateURL	
+// @updateURL	https://github.com/ZEROssk/Total-amount-in-AmazonList/raw/master/total-amount-in-list.user.js
 // ==/UserScript==
 
 (function() {
