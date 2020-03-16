@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Total amount in AmazonList
 // @namespace	http://zerono.cloud
-// @version		0.4
+// @version		0.5
 // @author		ZEROssk
 // @match		https://www.amazon.co.jp/hz/wishlist/*
 // @grant		none
