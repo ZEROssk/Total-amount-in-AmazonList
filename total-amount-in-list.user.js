@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name		Total amount in AmazonList
 // @namespace	http://zerono.cloud
-// @version		0.1
+// @version		0.2
 // @author		ZEROssk
-// @match		https://www.amazon.co.jp/hz/wishlist/ls/38L384U0VKCY8/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist
+// @match		https://www.amazon.co.jp/hz/wishlist/*
 // @grant		none
 // @license		MIT License
 // @updateURL	https://github.com/ZEROssk/Total-amount-in-AmazonList/raw/master/total-amount-in-list.user.js
