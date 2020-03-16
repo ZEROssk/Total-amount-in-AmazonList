@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Total amount in AmazonList
 // @namespace	http://zerono.cloud
-// @version		0.3
+// @version		0.4
 // @author		ZEROssk
 // @match		https://www.amazon.co.jp/hz/wishlist/*
 // @grant		none
@@ -23,8 +23,12 @@
 	for(let i=0; i < products.length; i++) {
 		  tAmount += parseInt(products[i].textContent.replace(/,/g, ''));
 	}
-	console.log(products.length);
-	console.log(tAmount);
-	console.log(insertPosition);
+
+	let insertHTML =
+		'<div>'+products.length+'</div>'+
+		'<div>'+tAmount+'</div>'
+	;
+
+	insertPosition.insertAdjacentHTML('afterend',);
 })();
 
