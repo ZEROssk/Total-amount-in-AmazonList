@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Total amount in AmazonList
 // @namespace	http://zerono.cloud
-// @version		0.6
+// @version		1.0
 // @author		ZEROssk
 // @match		https://www.amazon.co.jp/hz/wishlist/*
 // @grant		none
@@ -25,9 +25,9 @@
 	}
 
 	let insertHTML =
-		'<div>'+products.length+' : '+tAmount+'</div>'
+		'<div style="font-size:200%; margin-top:5%;">Products : '+products.length+' , Total Amount : '+tAmount+'</div>'
 	;
 
-	insertPosition.insertAdjacentHTML('afterend', insertHTML);
+	insertPosition[0].insertAdjacentHTML('afterend', insertHTML);
 })();
 
