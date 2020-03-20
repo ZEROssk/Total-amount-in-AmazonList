@@ -27,7 +27,6 @@
 	let insertHTML =
 		'<div style="font-size:200%; margin-top:5%;">Products : '+products.length+' , Total Amount : '+tAmount+'</div>'
 	;
-
 	insertPosition[0].insertAdjacentHTML('afterend', insertHTML);
 })();
 
