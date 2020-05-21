@@ -4,6 +4,7 @@
 // @version		1.0
 // @author		ZEROssk
 // @match		https://www.amazon.co.jp/hz/wishlist/*
+// @match		https://www.amazon.co.jp/gp/registry/*
 // @grant		none
 // @license		MIT License
 // @updateURL	https://github.com/ZEROssk/Total-amount-in-AmazonList/raw/master/total-amount-in-list.user.js
