@@ -28,10 +28,10 @@ var totalAmount = function() {
 	let products = document.getElementsByClassName(
 		'a-price-whole'
 	);
-	var tAmount =0;
+	let tAmount = 0;
 
 	for(let i=0; i < products.length; i++) {
-		  tAmount += parseInt(products[i].textContent.replace(/,/g, ''));
+		tAmount += parseInt(products[i].textContent.replace(/,/g, ''));
 	}
 
 	let insertHTML =
