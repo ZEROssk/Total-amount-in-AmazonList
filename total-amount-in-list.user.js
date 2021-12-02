@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		Total amount in AmazonList
 // @namespace	http://zerono.cloud
-// @version		2.0
+// @version		2.1
 // @author		ZEROssk
 // @match		https://www.amazon.co.jp/hz/wishlist/*
 // @match		https://www.amazon.co.jp/gp/registry/*
@@ -37,7 +37,7 @@ var totalAmount = function() {
 	let insertHTML =
 		`<div id="tACheck" style="margin-top:5%; display: flex;">` +
 			`<div id="totalAmount" style="font-size: 170%; color: #0099CC;">` +
-				`<p>Products : `+products.length+` , Total Amount : `+tAmount+` <<</p>` +
+				`<p>Products : `+products.length+` , Total Amount : `+tAmount.toLocaleString()+` <<</p>` +
 			`</div>` +
 			`<div id="reCheckButton">` +
 				`<button id="reCheckTA" style="margin-left: 1em; width: 4em; border-radius: 100vh; border: 0; background: #1aa1ff; color: #FFF;">Re</button>` +
